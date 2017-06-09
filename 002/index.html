@@ -1,0 +1,14 @@
+<div id="app">
+  {{ message }}
+  <p v-bind:title="message">V-BIND</p>
+</div>
+
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+})
+</script>

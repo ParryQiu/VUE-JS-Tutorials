@@ -1,0 +1,27 @@
+<div id="app">
+  {{ message }}
+  <p v-if="visabled" v-bind:title="message">V-BIND</p>
+
+  <ol>
+    <li v-for="todo in todos">
+      {{ todo.text }}
+    </li>
+  </ol>
+
+</div>
+
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!',
+    visabled: false,
+    todos: [
+      { text: '学习 JavaScript' },
+      { text: '学习 Vue' },
+      { text: '整个牛项目' }
+    ]
+  }
+})
+</script>
