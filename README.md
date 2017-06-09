@@ -1,4 +1,4 @@
-Vue.js 入门与进阶 / VUE-JS-Tutorials 视频教程配套源码。
+Vue.js 入门与进阶 / Vue.js Tutorials 视频教程配套源码。
 
 DevOpen.Club 出品的 Vue.js 入门与进阶视频教程。
 
